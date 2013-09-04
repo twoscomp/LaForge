@@ -1,0 +1,10 @@
+-record(group, {id = <<>>,
+		bands = [],
+		members = []}).
+
+-record(bands, {id = <<>>,
+		group = <<>>,
+		members = <<>>}).
+
+-record(users, {name = <<>>,
+		bands = <<>>}).

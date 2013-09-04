@@ -1,0 +1,12 @@
+{application, laforge,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { laforge_app, []}},
+  {env, []}
+ ]}.

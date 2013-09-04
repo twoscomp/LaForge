@@ -1,0 +1,14 @@
+{application, laforge,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  mnesia,
+		  lager
+                 ]},
+  {mod, { laforge_app, []}},
+  {env, []}
+ ]}.

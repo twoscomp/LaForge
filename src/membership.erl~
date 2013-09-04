@@ -1,0 +1,16 @@
+-module(membership).
+
+-behavior(gen_server).
+
+-export().
+
+-include("membership.hrl").
+
+start_link() ->
+
+%% ===================================================================
+%% gen_server callbacks
+%% ===================================================================
+
+init(Opts) -> 
+    mnesia:create(
